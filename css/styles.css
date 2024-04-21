@@ -242,13 +242,16 @@ main{
     display: block;
 }                                           
 nav{
-        flex-direction: column;
-        row-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
         ul{
             flex-direction: column;
             row-gap: 10px;
-        }
-    } 
+            a{
+                font-size: 0.5rem;
+        }            
+    }
+} 
 .boton_anterior{
     margin-left: 35%;        
     }
