@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display =intercambiar');
+/*Página INDEX*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Infant", serif;
+}
+header,footer{
+    background-color:beige;
+    padding: 10px;
+}
+.boton_cacbooks{
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: #b971c9;
+    background-image: radial-gradient(circle, #e9e38791, #ffce8498, #ffb8948d, #ffa8af87, #ffa2cc76, #ffa2cc72, #ffa2cc6f, #ffa2cc83, #ffa8af64, #ffb89463, #ffce8461, #e9e38753);
+}
+header{
+    position: sticky;
+    top: 0;
+    ul{
+        list-style: none;
+        text-align: center;
+        li{
+            display: inline;
+            margin-right: 20px;
+            a{
+                display: inline-block;
+                padding: 10px;
+                width: 150px;
+                border: #b971c9;
+                text-decoration: none;
+                color: black;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px 0px rgba(151, 73, 182, 0.563);   
+                font-size: 1.2rem;  
+            }
+        }
+    }
+}
+h1{
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    padding: 40px;
+}
+.imagen_corazon{
+    background-image: linear-gradient(to top, #efe7e700, #efe7e7bf), url(https://img.rtve.es/imagenes/libros-navidad-2022-lecturas-regalos-literatura/1671095417278.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+.tendencias_masleidos{
+    background-image: radial-gradient(circle, #e9e38791, #ffce8498, #ffb8948d, #ffa8af87, #ffa2cc76, #ffa2cc72, #ffa2cc6f, #ffa2cc83, #ffa8af64, #ffb89463, #ffce8461, #e9e38753);
+}
+.tenden{
+    font-family: "Gwendolyn", cursiva; 
+    font-size: 2.5rem;
+}
+.buscador{
+    border: #b971c9;
+    border-radius: 20px; 
+    padding: 0px 20px;
+    height: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(151, 73, 182, 0.563);
+    font-size: 1rem;
+}
+.botonbuscador{
+    border: #b971c9;
+    border-radius: 20px; 
+    padding: 0px 20px;
+    height: 40px;
+    background-color: #b971c9;
+    font-size: 1rem;
+}
+hr{
+    border: 1px solid #b971c9;
+    margin: 0 auto;
+    width: 95%;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(151, 73, 182, 0.563);
+    margin-bottom: 50px;
+}
+#Tendencias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas iguales */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin-left: 100px;
+}
+.boton_anterior{
+    border: #b971c9;
+    border-radius: 10px; 
+    padding: 0px 20px;
+    height: 40px;
+    background-color: #b971c9;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 540px; 
+    font-size: 1rem;
+}
+.boton_siguiente{
+    border: #b971c9;
+    border-radius: 10px; 
+    padding: 0px 20px;
+    height: 40px;
+    background-color: #b971c9;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.mas_leidos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas iguales */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin-left: 100px;
+}
+footer{
+    ul{
+        list-style: none;
+        text-align: center;
+        li{
+            display: inline;
+            margin-right: 20px;
+            a{
+                display: inline-block;
+                padding: 10px;
+                width: 200px;
+                border: #b971c9;
+                text-decoration: none;
+                color: black;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px 0px rgba(151, 73, 182, 0.563); 
+                font-size: 1.2rem; 
+            }
+        }
+    }
+}
+/*Página REGISTRASE*/
+.registro{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Gwendolyn", cursiva; ;
+}
+.page_registro{
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.boton{
+    border: #b971c9;
+    border-radius: 20px; 
+    padding: 0px 20px;
+    height: 40px;
+    background-color: #b971c9;
+    font-size: 1.2rem;
+}
+.page_registro_input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 20px; 
+    border: #b971c9;
+    box-shadow: 10px 10px 5px 0px rgba(226, 198, 238, 0.563);
+    font-size: 1rem;
+    color: black;
+}
+#pais{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: #b971c9;
+    box-shadow: 10px 10px 5px 0px rgba(226, 198, 238, 0.563);
+    font-size: 1rem;
+    color: black;
+}
+.paginaRegistro{
+    background-image: linear-gradient(to top, #efe7e750, #efe7e7bf), url(https://img.rtve.es/imagenes/libros-navidad-2022-lecturas-regalos-literatura/1671095417278.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*Página DETALLE*/
+.h2_detalle{
+    font-size: 2rem;
+}
+.paginaDetalle{
+    background-image: linear-gradient(to top, #efe7e7, #efe7e7b5), url(https://img.rtve.es/imagenes/libros-navidad-2022-lecturas-regalos-literatura/1671095417278.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contenedor{
+    width: 100%;
+}
+.fotoLibro{
+    float: left;
+    width: 490px;
+    height: 700px; 
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-left: 15px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    box-shadow: none;
+}
+.texto_libros{
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+@media screen and (max-width: 768px){
+body{
+    width: 100%;
+    float: none;
+}         
+main{
+    min-height: 100vh;
+    display: block;
+}                                           
+header{
+    height: initial;
+    nav{
+        flex-direction: column;
+        row-gap: 20px;
+        ul{
+            flex-direction: column;
+            row-gap: 10px;
+        }
+    }       
+}
+.boton_anterior{
+    margin-left: 35%;        
+}
+#Tendencias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columnas iguales */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin-left: 80px;
+}
+.mas_leidos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 4 columnas iguales */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin-left: 185px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.texto_libros{
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}      
+}
+
+
