@@ -18,6 +18,10 @@ header,footer{
     border: #b971c9;
     background-image: radial-gradient(circle, #e9e38791, #ffce8498, #ffb8948d, #ffa8af87, #ffa2cc76, #ffa2cc72, #ffa2cc6f, #ffa2cc83, #ffa8af64, #ffb89463, #ffce8461, #e9e38753);
 }
+.boton_cacbooks:hover{
+    background: #d3cb8e;
+    box-shadow: 0 0 5px #d27ad2, 0 0 25px #d27ad2, 0 0 50px #d27ad2, 0 0 200px #d27ad2;
+}
 header{
     position: sticky;
     top: 0;
