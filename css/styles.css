@@ -154,6 +154,12 @@ footer{
         }
     }
 }
+#weather{
+    display: flex;
+    justify-content: right;
+    font-family: "Gwendolyn", cursiva; 
+    font-size: 1rem;
+}
 /*Página REGISTRASE*/
 .registro{
     font-size: 4rem;
